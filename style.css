@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
 
 .flex-container {
     display: flex;
@@ -6,49 +11,36 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 20px 10px;
+    padding: 25px;
 }
 
-.flex-item {
+/* .flex-item {
     border-style: solid;
     border-width: 2px;
-    margin: 0 10px
-}
-
-p {
-    text-align: center;
-    margin: 10px 0;
-}
-
-
-/* .footer-contents {
-    text-align: left;
-} */
-* {
-    margin: 0px;
-    padding: 0px;
-  }
+    /* margin: 0 10px 
+}*/
 
 .header-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border-style: solid; */
     background-color: #f0f0f0;
-  /* padding: 20px; */
 }
 
 .logo-container {
     display: flex;
     align-items: center;
     margin: 15px;
-    /* border-style: solid; */
-    /* border-width: 2px; */
 }
 
 .uplb-logo {
-    width: 150px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px; 
+    height: auto; 
+}
 
+.pfp {
+    width: 150px; 
+    height: auto; 
 }
 
 .uplb-gate {
@@ -59,16 +51,57 @@ p {
 .featured-photo-container {
     display: flex;
     border-style: solid;
-    /* border-width: 5px; */
+    border-width: 5px;
     align-items: center;
     margin: 20px 20px;
 }
 
 .projects {
     max-width: 100%;
-    /* height: auto; */
 }
 
 h1 {
     text-align: center;
 }
+
+p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: en;
+    margin: auto 25%;
+}
+
+.autobiography {
+    height: 100%;
+    display: flex;
+    margin: 10px 25px;
+    text-align: left;
+}
+
+.footer-contents {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #f0f0f0;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+} 
