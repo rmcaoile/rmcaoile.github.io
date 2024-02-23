@@ -1,9 +1,11 @@
+/* Resetting margin, padding, and font for all elements */
 * {
     margin: 0px;
     padding: 0px;
     font-family: Arial;
 }
 
+/* Flex Container */
 .flex-container {
     display: flex;
     border-style: solid;
@@ -14,12 +16,7 @@
     padding: 25px;
 }
 
-/* .flex-item {
-    border-style: solid;
-    border-width: 2px;
-    /* margin: 0 10px 
-}*/
-
+/* Header Container */
 .header-container{
     display: flex;
     align-items: center;
@@ -27,27 +24,32 @@
     background-color: #f0f0f0;
 }
 
+/* Logo Container */
 .logo-container {
     display: flex;
     align-items: center;
     margin: 15px;
 }
 
+/* UPLB Logo */
 .uplb-logo {
     width: 150px; 
     height: auto; 
 }
 
+/* Profile Picture */
 .pfp {
     width: 150px; 
     height: auto; 
 }
 
+/* UPLB Gate Image */
 .uplb-gate {
     max-width: 100%;
     height: auto;
 }
 
+/* Featured Photo Container */
 .featured-photo-container {
     display: flex;
     border-style: solid;
@@ -56,24 +58,18 @@
     margin: 20px 20px;
 }
 
+/* Projects Images */
 .projects {
     max-width: 100%;
 }
 
-h1 {
-    text-align: center;
-}
-
-p {
+/* Center-aligning headings and paragraphs */
+h1, p, h3 {
     text-align: center;
     margin: 10px 0;
 }
 
-h3 {
-    text-align: center;
-    margin: 5px 0;
-}
-
+/* Unordered list */
 ul {
     display: flex;
     flex-direction: column;
@@ -81,6 +77,7 @@ ul {
     margin: auto 25%;
 }
 
+/* Autobiography Paragraph */
 .autobiography {
     height: 100%;
     display: flex;
@@ -88,11 +85,13 @@ ul {
     text-align: left;
 }
 
+/* Footer Contents */
 .footer-contents {
     text-align: left;
     margin-left: 25px;
 }
 
+/* Footer Container */
 .footer-container{
     display: flex;
     align-items: center;
@@ -100,8 +99,9 @@ ul {
     background-color: #f0f0f0;
 }
 
+/* Profile Container */
 .profile-container {
     display: flex;
     align-items: center;
     margin: 25px;
-} 
+}
