@@ -1,0 +1,52 @@
+show dbs
+
+use ICS
+
+show collections
+
+db.ICS.insertOne({ stdnum: "100", fname: "Koy", lname: "Lapitan", age: 43});
+
+db.ICS.insertMany([
+    {stdnum: 202012345,
+    fname: "John",
+     lname: "Doe",
+    age: 18},
+
+    {stdnum: 202067890,
+    fname: "“Juan”",
+     lname: "dela Cruz",
+    age: 20},
+
+    {stdnum: 202011111,
+    fname: "“Peter”",
+     lname: "Parker",
+    age: 22}
+    ]);
+    
+db.ICS.drop();
+
+
+db.ICS.find();
+
+db.ICS.find({
+fname:”John”});
+
+db.ICS.find({
+stdnum: 202012345, fname:”John”});
+db.ICS.find({
+fname: /Jo.*/ 
+});
+
+db.ICS.find({
+stdnum: /.*02/  
+});
+
+
+
+db.ICS.find({age: {$gte 20}});
+
+db.ICS.find({
+lname : {$in [“Parker”, “dela Cruz”]}
+});
+
+
